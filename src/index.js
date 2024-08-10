@@ -1,5 +1,6 @@
-const birthday = '12-27';
-const name = 'hyojin';
-const Email = po_o_h@naver.com;
+//명시적 형 변환
 
-console.log(birthday);
+let num1 = "15";
+let num2 = 5;
+
+console.log(parseInt(num1) + num2);
