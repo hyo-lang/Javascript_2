@@ -1,12 +1,12 @@
 //for문
 
-//for (let i = 5; i > 0; i--) {
-//  console.log(i);
-//}
+for (let i = 5; i > 0; i--) {
+  console.log(i);
+}
 
-//for (let i1 = 1; i1 < 6; i1++) {
-//  console.log(i1);
-//}
+for (let i1 = 1; i1 < 6; i1++) {
+  console.log(i1);
+}
 
 //while 문
 
