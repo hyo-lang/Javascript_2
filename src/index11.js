@@ -16,3 +16,20 @@ arr.forEach((elm, idx, array) => {
   console.log(`${idx}번째 요소는 ${elm}입니다.`);
   console.log(array);
 });
+
+let newArray = [];
+
+for (let i2 = 0; i2 < arr.length; i2++) {
+  newArray.push(arr[i2] * 10);
+}
+
+console.log(newArray);
+
+let newArray2 = arr.map((elm) => {
+  return elm * 10;
+});
+
+console.log(newArray2);
+
+let colors = ["green", "blue", "purple"];
+console.log(colors.at(-1));
