@@ -14,7 +14,7 @@ promise
         console.log(error);
     });
 
-    //
+//
 
 const workA = (value) => {
     const promise = new Promise((resolve) =>{
